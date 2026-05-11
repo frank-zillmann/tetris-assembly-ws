@@ -1,5 +1,5 @@
 [submodule "tetris-assembly"]
-	path = tetris-assembly
+	path = src/tetris-assembly
 	url = https://github.com/frank-zillmann/tetris-assembly.git
 [submodule "src/gazebo-grasp-plugin"]
 	path = src/gazebo-grasp-plugin

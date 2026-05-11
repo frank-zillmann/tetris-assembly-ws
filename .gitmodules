@@ -1,0 +1,3 @@
+[submodule "tetris-assembly"]
+	path = tetris-assembly
+	url = https://github.com/frank-zillmann/tetris-assembly.git

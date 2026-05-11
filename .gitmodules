@@ -1,3 +1,35 @@
 [submodule "tetris-assembly"]
 	path = tetris-assembly
 	url = https://github.com/frank-zillmann/tetris-assembly.git
+[submodule "src/gazebo-grasp-plugin"]
+	path = src/gazebo-grasp-plugin
+	url = https://github.com/RCPRG-ros-pkg/gazebo-grasp-plugin.git
+	branch = humble-grasp-fix
+[submodule "src/libuvc"]
+	path = src/libuvc
+	url = https://github.com/ArendJan/libuvc.git
+	branch = master
+[submodule "src/mirte-ros-packages"]
+	path = src/mirte-ros-packages
+	url = https://github.com/mirte-robot/mirte-ros-packages.git
+	branch = develop
+[submodule "src/rplidar_ros"]
+	path = src/rplidar_ros
+	url = https://github.com/Slamtec/rplidar_ros.git
+	branch = ros2
+[submodule "src/ros2_astra_camera"]
+	path = src/ros2_astra_camera
+	url = https://github.com/ArendJan/ros2_astra_camera/
+	branch = fix-ros-jammy
+[submodule "src/usb_cam"]
+	path = src/usb_cam
+	url = https://github.com/ArendJan/usb_cam.git
+	branch = main
+[submodule "src/web_video_server"]
+	path = src/web_video_server
+	url = https://github.com/RobotWebTools/web_video_server.git
+	branch = ros2
+[submodule "src/mirte-gazebo"]
+	path = src/mirte-gazebo
+	url = https://github.com/mirte-robot/mirte-gazebo
+	branch = main

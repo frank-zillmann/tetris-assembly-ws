@@ -10,9 +10,11 @@ services:
     ipc: host
     stdin_open: true
     tty: true
+    init: true
+    working_dir: /workspaces/mirte_ws
     environment:
       - DISPLAY=${DISPLAY}
-      - XAUTHORITY=/root/.Xauthority
+      - XAUTHORITY=/tmp/.Xauthority
       - QT_X11_NO_MITSHM=1
       - ROS_DOMAIN_ID=6
       - ROS_LOCALHOST_ONLY=0
@@ -26,4 +28,6 @@ services:
       - .:/workspaces/mirte_ws
       - /tmp/.X11-unix:/tmp/.X11-unix:rw
       # Set XAUTHORITY on the host if your desktop uses a different location.
-      - ${XAUTHORITY:-${HOME}/.Xauthority}:/root/.Xauthority:ro
+      - ${XAUTHORITY:-${HOME}/.Xauthority}:/tmp/.Xauthority:ro
+      - /etc/localtime:/etc/localtime:ro
+      - /etc/timezone:/etc/timezone:ro

@@ -54,6 +54,10 @@ apt-get update
 rosdep update
 rosdep install --from-paths src --ignore-src -r -y
 
+# Mark workspace as safe for git (mirte_telemetrix_cpp build fails without this)
+git config --global --add safe.directory /workspaces/mirte_ws
+git config --global --add safe.directory /workspaces/mirte_ws/src/mirte-ros-packages
+
 # Build workspace
 colcon build
 # Alternative using minimal resources

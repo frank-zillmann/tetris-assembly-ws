@@ -33,3 +33,6 @@
 	path = src/mirte-gazebo
 	url = https://github.com/mirte-robot/mirte-gazebo
 	branch = main
+[submodule "src/mirte_location_markers_msgs"]
+	path = src/mirte_location_markers_msgs
+	url = https://github.com/MartijnWisse/mirte_location_markers_msgs.git
